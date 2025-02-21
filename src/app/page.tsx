@@ -46,8 +46,8 @@ const Home = () => {
         <div className={`${styles.content}`}>
           <div className={styles.aboutme} ref={aboutRef}>
             <ProfilePicture />
-            <h1 className="text-4xl font-bold">
-              hi, my name is <span>jimmy</span>
+            <h1 className="text-4xl font-bold text-center">
+              hi, my name is jimmy
             </h1>
 
             <p className="text-3xl font-bold text-center max-w-lg ">
