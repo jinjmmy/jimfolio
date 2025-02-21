@@ -44,6 +44,12 @@ const Home = () => {
           </div>
         </div>
         <div className={`${styles.content}`}>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
           <div className={styles.aboutme} ref={aboutRef}>
             <ProfilePicture />
             <h1 className="text-4xl font-bold text-center">
