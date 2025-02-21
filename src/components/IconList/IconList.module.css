@@ -1,0 +1,28 @@
+.itemList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.center {
+  justify-content: center;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 8px;
+  border-radius: 8px;
+  margin-right: 8px;
+  margin-top: 0.5rem;
+  color: black;
+}
+
+.skillIcon {
+  margin-right: 8px;
+}
+
+.skillName {
+  font-weight: bold;
+}
