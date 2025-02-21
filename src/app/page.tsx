@@ -8,25 +8,16 @@ import Carousel from "@/components/Carousel";
 import Skills from "@/components/Skills";
 import Project from "@/components/Project";
 import {
-  FaCss3,
   FaEnvelope,
   FaGithub,
-  FaHtml5,
   FaJava,
   FaJs,
   FaLinkedin,
   FaPython,
-  FaReact,
   FaDocker,
   FaFlask,
 } from "react-icons/fa";
-import {
-  SiAmazon,
-  SiFlask,
-  SiMysql,
-  SiKubernetes,
-  SiScikitlearn,
-} from "react-icons/si";
+import { SiAmazon, SiMysql, SiKubernetes, SiScikitlearn } from "react-icons/si";
 import { LuSoup } from "react-icons/lu";
 import { TbTransform } from "react-icons/tb";
 
