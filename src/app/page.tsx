@@ -50,18 +50,26 @@ const Home = () => {
               hi, my name is <span>jimmy</span>
             </h1>
 
-            <p className="text-3xl font-bold">
+            <p className="text-3xl font-bold text-center max-w-lg ">
               i am a recent computer science graduate from{" "}
               <a href="https://cs.ics.uci.edu/" target="_blank" rel="noopener">
                 uci
               </a>
-              .
-            </p>
-            <p className="text-2xl font-bold">
-              i am interested in full-stack development, cloud computing, data
+              . i am interested in full-stack development, cloud computing, data
               engineering, and data science.
             </p>
           </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+
           <div ref={expRef}>
             <h2 className="text-3xl font-bold">experience</h2>
             <Carousel
@@ -175,7 +183,7 @@ const Home = () => {
             <Skills />
           </div>
           <div ref={projRef}>
-            <h2 className="text-3xl font-bold">Projects</h2>
+            <h2 className="text-3xl font-bold">projects</h2>
             <Carousel
               items={[
                 <Project
