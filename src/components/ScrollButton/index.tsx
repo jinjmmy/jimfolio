@@ -3,7 +3,7 @@ import React, { FC, ReactNode, RefObject } from "react";
 import styles from "./ScrollButton.module.css";
 
 interface ScrollButtonProps {
-  scrollRef?: RefObject<HTMLDivElement> | null;
+  scrollRef: RefObject<HTMLDivElement | null>; // Allow null initially
   children: ReactNode;
 }
 

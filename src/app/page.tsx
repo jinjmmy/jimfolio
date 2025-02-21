@@ -22,11 +22,11 @@ import { LuSoup } from "react-icons/lu";
 import { TbTransform } from "react-icons/tb";
 
 const Home = () => {
-  const aboutRef = useRef<HTMLDivElement>(null);
-  const expRef = useRef<HTMLDivElement>(null);
-  const skillsRef = useRef<HTMLDivElement>(null);
-  const projRef = useRef<HTMLDivElement>(null);
-  const contactRef = useRef<HTMLDivElement>(null);
+  const aboutRef = useRef<HTMLDivElement | null>(null);
+  const expRef = useRef<HTMLDivElement | null>(null);
+  const skillsRef = useRef<HTMLDivElement | null>(null);
+  const projRef = useRef<HTMLDivElement | null>(null);
+  const contactRef = useRef<HTMLDivElement | null>(null);
   return (
     <main className={styles.main}>
       <div className={styles.hstack}>
@@ -38,7 +38,7 @@ const Home = () => {
             <ScrollButton scrollRef={skillsRef}>my skills</ScrollButton>
             <ScrollButton scrollRef={projRef}>my projects</ScrollButton>
             <ScrollButton scrollRef={contactRef}>contact me</ScrollButton>
-            <a className={styles.link} href="/JimmyJinResume2025.pdf">
+            <a className={styles.link} href="public/JimmyJinResume2025.pdf">
               resume
             </a>
           </div>
