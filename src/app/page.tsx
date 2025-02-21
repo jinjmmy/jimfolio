@@ -69,7 +69,7 @@ const Home = () => {
           <br></br>
           <br></br>
           <br></br>
-
+          <br></br>
           <div ref={expRef}>
             <h2 className="text-3xl font-bold">experience</h2>
             <Carousel
@@ -182,6 +182,8 @@ const Home = () => {
           <div ref={skillsRef}>
             <Skills />
           </div>
+          <br></br>
+          <br></br>
           <div ref={projRef}>
             <h2 className="text-3xl font-bold">projects</h2>
             <Carousel
