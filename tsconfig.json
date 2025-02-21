@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
     "lib": [
       "dom",
       "dom.iterable",
@@ -17,7 +16,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
     "plugins": [
       {
         "name": "next"
@@ -26,11 +25,9 @@
     "paths": {
       "@/*": [
         "./src/*"
-      ],
-      "next/*": [
-        "./node_modules/next/*"
       ]
-    }
+    },
+    "target": "ES2017"
   },
   "include": [
     "next-env.d.ts",

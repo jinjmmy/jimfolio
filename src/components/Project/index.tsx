@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import styles from "./Project.module.css";
 import Image from "next/image";
-import { FaGithub, FaJs } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import IconList, { IconItem } from "../IconList";
 

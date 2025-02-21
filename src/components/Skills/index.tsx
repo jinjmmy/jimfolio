@@ -1,6 +1,4 @@
 // components/SkillsList.js
-
-import React from "react";
 import {
   FaPython,
   FaJava,
@@ -50,7 +48,7 @@ const Skills = () => {
     <div>
       <h2 className="text-3xl font-bold">skills</h2>
       <div className={styles.category}>
-        <h className="text-xl font-bold">programming languages</h>
+        <h4 className="text-xl font-bold">programming languages</h4>
         <IconList list={programmingLanguages} />
       </div>
 

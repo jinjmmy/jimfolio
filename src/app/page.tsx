@@ -1,52 +1,3 @@
-// import Link from "next/link";
-// import Experience from "@/components/Experience";
-
-// export default function Home() {
-//   return (
-//     <div className="bg-white justify-between items-center text-green-600 min-h-screen flex flex-col">
-//       {/* Navigation Links */}
-//       <div className="justify-between items-center w-full px-8 py-4 flex">
-//         <Link href="/about">
-//           <span className="cursor-pointer hover:underline">[about me]</span>
-//         </Link>
-//         <Link href="/experience">
-//           <span className="cursor-pointer hover:underline">[experience]</span>
-//         </Link>
-//         <Link href="/projects">
-//           <span className="cursor-pointer hover:underline">[projects]</span>
-//         </Link>
-//       </div>
-
-//       {/* Main Content */}
-//       <div className="text-center text-green-700">
-//         <p className="text-3xl mb-4">hello, welcome</p>
-//         <div className="md:flex-row items-center flex flex-col">
-//           <p className="text-7xl font-bold mb-8 md:mb-0">
-//             jimmy jin
-//             <br />
-//             <span className="text-4xl font-bold mb-8 md:mb-0">
-//               software + data
-//             </span>
-//           </p>
-
-//           <img
-//             alt="Yours Truly"
-//             src="https://placehold.co/600x400"
-//             className="inline-block w-96 h-auto md:ml-12"
-//           />
-//         </div>
-//       </div>
-
-//       {/* Contact Link */}
-//       <div className="w-full justify-end px-8 py-4 flex">
-//         <Link href="/contact">
-//           <span className="cursor-pointer hover:underline">[get in touch]</span>
-//         </Link>
-//       </div>
-//     </div>
-//   );
-// }
-
 "use client";
 import { useRef } from "react";
 import styles from "./page.module.css";
@@ -127,7 +78,7 @@ const Home = () => {
                 <Experience
                   name="Panasonic Avionics Corporation"
                   role="Data Science Intern"
-                  image="/images/aim.png"
+                  image=""
                   link="https://www.panasonic.aero/"
                 >
                   <ul>
@@ -153,7 +104,7 @@ const Home = () => {
                 <Experience
                   name="UCI Mobley Lab"
                   role="Undergraduate Researcher"
-                  image="/images/oisc.jpeg"
+                  image=""
                   link="https://mobleylab.org/"
                 >
                   <ul>
@@ -161,8 +112,8 @@ const Home = () => {
                       Speeding up Thompson Sampling warmup cycles runtime by
                       implementing multiprocessing and GPU based python
                       libraries, enhancing scalability for large chemical
-                      datasets. (in progress: all work being excecuted in UCI's
-                      HPC3 cluster.)
+                      datasets. (in progress: all work being excecuted in
+                      UCI&apos;s HPC3 cluster.)
                     </li>
                     <br></br>
                     <li>
@@ -181,7 +132,7 @@ const Home = () => {
                 <Experience
                   name="Irvine Chinese Immersion Academy"
                   role="Technology Support Technician"
-                  image="/images/neweic.png"
+                  image=""
                   link="https://www.iciacademy.org/"
                 >
                   <ul>
@@ -205,7 +156,7 @@ const Home = () => {
                 <Experience
                   name="UCI Campus Recreation"
                   role="Sales Associate"
-                  image="/images/datamine.png"
+                  image=""
                   link="https://www.campusrec.uci.edu/"
                 >
                   <ul>
@@ -238,7 +189,7 @@ const Home = () => {
               items={[
                 <Project
                   name="J-Movie"
-                  image="/images/jakarta.png"
+                  image=""
                   desc="mock imdb, my first experience with full stack"
                   skills={[
                     { name: "Java", icon: <FaJava /> },
@@ -263,7 +214,7 @@ const Home = () => {
                 />,
                 <Project
                   name="Google-ish"
-                  image="/images/crossed.png"
+                  image=""
                   github=""
                   desc="Google mock engine"
                   skills={[
@@ -293,7 +244,7 @@ const Home = () => {
 
                 <Project
                   name="Diabetes Classifier"
-                  image="/images/emotional.png"
+                  image=""
                   desc="first exposure to ML, predicted a patient's need to be readmitted"
                   skills={[
                     { name: "numpy", icon: "🧮" },
