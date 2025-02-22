@@ -49,24 +49,23 @@ const Home = () => {
           <br></br>
           <br></br>
           <br></br>
-          <br></br>
           <div className={styles.aboutme} ref={aboutRef}>
             <ProfilePicture />
-            <h1 className="text-4xl font-bold text-center">
-              hi, my name is jimmy
+            <br></br>
+            <br></br>
+            <h1 className="text-3xl font-bold text-center">
+              Hi, my name is Jimmy.
             </h1>
 
             <p className="text-3xl font-bold text-center max-w-lg ">
-              i am a recent computer science graduate from{" "}
+              I am a recent computer science graduate from{" "}
               <a href="https://cs.ics.uci.edu/" target="_blank" rel="noopener">
-                uci
+                UC
               </a>
-              . i am interested in full-stack development, cloud computing, data
-              engineering, and data science.
+              I & I am interested in full-stack development, cloud computing,
+              data engineering, and data science.
             </p>
           </div>
-          <br></br>
-          <br></br>
           <br></br>
           <br></br>
           <br></br>
@@ -222,8 +221,8 @@ const Home = () => {
                 <Project
                   name="Google-ish"
                   image=""
-                  github=""
-                  desc="Google mock engine"
+                  github="https://github.com/amiramadmairaj/Web_Crawler"
+                  desc="Google mock engine made with a group of 3 other developers"
                   skills={[
                     { name: "Python", icon: <FaPython /> },
                     {
@@ -252,6 +251,7 @@ const Home = () => {
                 <Project
                   name="Diabetes Classifier"
                   image=""
+                  github="https://github.com/jinjmmy/diabetes_classifier"
                   desc="first exposure to ML, predicted a patient's need to be readmitted"
                   skills={[
                     { name: "numpy", icon: "🧮" },
@@ -262,6 +262,7 @@ const Home = () => {
                     { name: "scikit-learn", icon: <SiScikitlearn /> },
 
                     { name: "Python", icon: <FaPython /> },
+                    { name: "matplotlib", icon: "📊" },
                   ]}
                 />,
               ]}
