@@ -38,7 +38,7 @@ const Home = () => {
             <ScrollButton scrollRef={skillsRef}>my skills</ScrollButton>
             <ScrollButton scrollRef={projRef}>my projects</ScrollButton>
             <ScrollButton scrollRef={contactRef}>contact me</ScrollButton>
-            <a className={styles.link} href="public/JimmyJinResume2025.pdf">
+            <a className={styles.link} href="/JimmyJinResume2025.pdf">
               resume
             </a>
           </div>
