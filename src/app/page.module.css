@@ -16,7 +16,6 @@
   top: 0;
   left: 0;
   overflow-x: hidden;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +40,6 @@
 }
 
 .aboutme {
-  /* margin-top: 4rem */
   display: flex;
   flex-direction: column;
   justify-content: center;

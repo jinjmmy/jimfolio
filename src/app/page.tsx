@@ -82,7 +82,7 @@ const Home = () => {
                 <Experience
                   name="Panasonic Avionics Corporation"
                   role="Data Science Intern"
-                  image=""
+                  image="/images/pana.jpg"
                   link="https://www.panasonic.aero/"
                 >
                   <ul>
@@ -108,7 +108,7 @@ const Home = () => {
                 <Experience
                   name="UCI Mobley Lab"
                   role="Undergraduate Researcher"
-                  image=""
+                  image="/images/mobley.jpg"
                   link="https://mobleylab.org/"
                 >
                   <ul>
@@ -136,7 +136,7 @@ const Home = () => {
                 <Experience
                   name="Irvine Chinese Immersion Academy"
                   role="Technology Support Technician"
-                  image=""
+                  image="/images/icia.jpg"
                   link="https://www.iciacademy.org/"
                 >
                   <ul>
@@ -160,7 +160,7 @@ const Home = () => {
                 <Experience
                   name="UCI Campus Recreation"
                   role="Sales Associate"
-                  image=""
+                  image="/images/uci.png"
                   link="https://www.campusrec.uci.edu/"
                 >
                   <ul>
