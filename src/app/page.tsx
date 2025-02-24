@@ -48,7 +48,6 @@ const Home = () => {
           <br></br>
           <br></br>
           <br></br>
-          <br></br>
           <div className={styles.aboutme} ref={aboutRef}>
             <ProfilePicture />
             <br></br>
